@@ -15,7 +15,7 @@ function persistence(num) {
         for (i=1; i<digits.length; i++) {
             multiplied = multiplied * parseInt(digits[i]);
         };
-        //console.log(multiplied);
+        console.log(multiplied);
         countArray.push(1);
         digits = (""+multiplied).split("");
     };
@@ -26,3 +26,5 @@ function persistence(num) {
 persistence(39);
 persistence(999);
 persistence(4);
+persistence(8673447);
+
